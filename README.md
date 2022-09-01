@@ -90,6 +90,9 @@ For existing apps, deploy with the Deta CLI:
 
 ```console
 $ deta deploy
+
+Deploying...
+Successfully deployed changes
 ```
 
 ## Enable public access
@@ -154,6 +157,8 @@ You can make it private with:
 
 ```console
 $ deta auth enable
+
+Successfully enabled http auth
 ```
 
 ### Create an API key
@@ -162,11 +167,9 @@ To create a new API key, run the following command, make sure to provide at leas
 
 ```console
 $ deta auth create-api-key --name basicdweetserver_api_key --desc "API key for basicdweetserver"
-```
 
-This will send a response similar to this:
-
-```json
+THE FOLLOWING API-KEY WILL ONLY BE SHOWN ONCE.
+Please, copy it and keep it in a safe place.
 {
     "name": "basicdweetserver_api_key",
     "description": "API key for basicdweetserver",
