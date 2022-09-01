@@ -65,6 +65,7 @@ Next, deploy your application with the Deta CLI:
 
 ```console
 $ deta new
+
 Successfully created a new micro
 {
         "name": "basicdweetserver",
@@ -81,7 +82,7 @@ Adding dependencies...
 Successfully installed...
 ```
 
-> Note:
+> **Note:**
 > 
 > Your deployment will have a different `"endpoint"` URL.
 
